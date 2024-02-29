@@ -1,0 +1,50 @@
+nav {
+  width:1280px;
+  margin: 0 auto;
+}
+
+nav:before{
+  content:''; 
+  display:block;
+  height:30px;
+  width:100%;
+  background:#000;
+  position:absolute;
+  left:0;
+  z-index:-1;
+}
+
+ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+  height:20px;
+}
+
+ul li{
+  float:left;
+}
+
+ul li a{
+  color:#fff;
+  display:block;
+  height:20px;
+  padding:0 10px;
+  text-transform:uppercase;
+  text-decoration:none;
+  line-height:20px;
+}
+
+ul li a:hover{
+  background:#d34d43;
+}
+
+footer {
+        padding: 10px 20px;
+        background: black;
+        color: white;
+      }
+
+fig {
+    text-align: center; 
+   }
